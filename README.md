@@ -73,10 +73,14 @@ US-Accidents-Visualization_Project/
 │-- README.md                             # Project documentation
 ```
 
-## Interactive Visualization
-For an interactive view of the **US Accidents Data**, check out the Tableau workbook online:
+## Interactive Visualizations
+For an interactive view of the **US Accidents Data**, explore the following Tableau dashboards:
 
-🔗 **View Interactive Dashboard:** [Tableau Public](https://prod-apnortheast-a.online.tableau.com/#/site/litap2000-a67b1bf524/workbooks/3033156?:origin=card_share_link)
+🔹 **[Location-Based Visualization Dashboard](https://public.tableau.com/views/US_Accidents_Data_Visualised/LocationbasedDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** – View accidents by geographic location and severity across the U.S.
+
+🔹 **[Time-Based Analysis Dashboard](https://public.tableau.com/views/US_Accidents_Data_Visualised/TimebsedDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** – Explore accident trends over time, including peak accident hours and weekdays.
+
+🔹 **[Weather Impact on Accidents Dashboard](https://public.tableau.com/views/US_Accidents_Data_Visualised/Weatherbaseddashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** – Analyze how different weather conditions affect accident counts and severity.
 
 ## Data Source
 This dataset must be downloaded from Kaggle:  
