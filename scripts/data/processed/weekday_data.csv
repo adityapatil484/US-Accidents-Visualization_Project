@@ -1,0 +1,8 @@
+DayOfWeek,Weekend,Accident_Count,DayName
+0,0,121060,Monday
+1,0,128657,Tuesday
+2,0,131183,Wednesday
+3,0,131795,Thursday
+4,0,136781,Friday
+5,1,66919,Saturday
+6,1,56444,Sunday
