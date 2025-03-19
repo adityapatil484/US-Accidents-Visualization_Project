@@ -21,7 +21,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='US_Accidents_Data_Visualised' path='/workbooks' revision='1.3' />
+  <repository-location id='US_Accidents_Data_Visualised' path='/workbooks' revision='1.6' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -2261,8 +2261,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='21' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='29' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Top 25 states by No of Accidents' w='62200' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2379,8 +2379,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='17' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='25' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='48625' id='11' is-fixed='true' name='Accidents by Hour of Day' w='54600' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2486,8 +2486,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='19' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Proportion of Accidents by Weather Conditions' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2847,7 +2847,7 @@
       <active id='-1' />
       <simple-id uuid='{AF39F658-DA45-479D-88D3-22B546237652}' />
     </window>
-    <window class='dashboard' name='Time bsed Dashboard'>
+    <window class='dashboard' maximized='true' name='Time bsed Dashboard'>
       <viewpoints>
         <viewpoint name='Accidents Over Time (2016-2021)'>
           <zoom type='entire-view' />
@@ -2865,7 +2865,7 @@
       <active id='-1' />
       <simple-id uuid='{B9705C37-035D-43E4-8EF3-746F4B8332A8}' />
     </window>
-    <window class='dashboard' maximized='true' name='Weather based dashboard'>
+    <window class='dashboard' name='Weather based dashboard'>
       <viewpoints>
         <viewpoint name='Accident Freq vs Severity by Weather'>
           <zoom type='entire-view' />
