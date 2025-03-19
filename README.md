@@ -5,7 +5,7 @@ This repository contains a project focused on analyzing US accident data using v
 
 ## Project: US Accidents Data Analysis
 - 🚗 **Traffic Accident Data**: The dataset contains records of road accidents across the United States, including details such as location, time, weather conditions, and severity.
-- 📊 **Datasets**: `US_Accidents_March23.csv` is the raw file, must be downloaded from kaggle and moved to path `scripts/data/raw/`, processed datasets stored in `scripts/data/processed/`
+- 📊 **Datasets**: `US_Accidents_March23.csv` is the raw file, must be downloaded from Kaggle and moved to path `scripts/data/raw/`, processed datasets stored in `scripts/data/processed/`
 - 🎯 **Objective**: Explore accident trends and patterns across states, cities, and time periods using analytical and visualization techniques.
 - 🛠 **Tech Stack**: Python, Pandas, Matplotlib, Tableau.
 
@@ -31,16 +31,17 @@ Ensure you have the following installed:
    - Download the file `US_Accidents_March23.csv`.
    - Move it into the `scripts/data/raw/` directory.
 
-5. Run the preprocess_data.py script to populate the `scripts/data/processed/` folder
+4. Run the preprocess_data.py script to populate the `scripts/data/processed/` folder:
    ```sh
-      python3 scripts/preprocess_data.py
+   python3 scripts/preprocess_data.py
    ```
 
-4. Install dependencies:
+5. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-5. Open Jupyter Notebook and run it:
+
+6. Open Jupyter Notebook and run it:
    ```sh
    jupyter notebook notebooks/data_visualization.ipynb
    ```
@@ -71,6 +72,11 @@ US-Accidents-Visualization_Project/
 │-- requirements.txt                      # Dependencies list
 │-- README.md                             # Project documentation
 ```
+
+## Interactive Visualization
+For an interactive view of the **US Accidents Data**, check out the Tableau workbook online:
+
+🔗 **View Interactive Dashboard:** [Tableau Public](https://prod-apnortheast-a.online.tableau.com/#/site/litap2000-a67b1bf524/workbooks/3033156?:origin=card_share_link)
 
 ## Data Source
 This dataset must be downloaded from Kaggle:  
