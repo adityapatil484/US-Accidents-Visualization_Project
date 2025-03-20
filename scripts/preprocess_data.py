@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # User-defined path where manually downloaded dataset is stored
-USER_PROVIDED_PATH = Path("/Users/adityapatil/Desktop/visualisation_project/scripts/data/raw/US_Accidents_March23.csv") 
+USER_PROVIDED_PATH = Path("/Users/adityapatil/Desktop/US-Accidents-Visualization_Project/scripts/data/raw/US_Accidents_March23.csv") 
 
 # Data directories
 PROCESSED_DIR = Path("data/processed")
